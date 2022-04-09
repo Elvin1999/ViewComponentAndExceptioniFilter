@@ -1,0 +1,8 @@
+﻿@model RazorPages.Models.StudentListViewModel
+
+@foreach (var student in Model.Students)
+{
+    @student.Id
+    @student.Name
+    <hr>
+}

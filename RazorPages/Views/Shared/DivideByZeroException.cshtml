@@ -1,0 +1,17 @@
+﻿
+@{
+    Exception ex = ViewData["HandleException"] as Exception;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DivideByZeroException</title>
+</head>
+<body>
+    <h1>DivideByZeroException</h1>
+    <p>@ex.Message</p>
+</body>
+</html>
